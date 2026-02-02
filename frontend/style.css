@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  padding: 30px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.form {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 360px;
+  margin-bottom: 20px;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+#timeInputs input {
+  margin-bottom: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.colors span {
+  font-size: 14px;
+  color: #555;
+}
+
+.color-palette {
+  display: flex;
+  gap: 8px;
+  margin: 8px 0 12px;
+}
+
+.color {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.color.selected {
+  border: 2px solid black;
+}
+
+.color[data-color="#4f46e5"] { background: #4f46e5; }
+.color[data-color="#16a34a"] { background: #16a34a; }
+.color[data-color="#dc2626"] { background: #dc2626; }
+.color[data-color="#ca8a04"] { background: #ca8a04; }
+.color[data-color="#0ea5e9"] { background: #0ea5e9; }
+
+.task {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-left: 6px solid;
+  border-radius: 6px;
+  width: 360px;
+}
+
+.task small {
+  color: #555;
+}
+
+.delete {
+  background: #dc2626;
+  margin-top: 5px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Task App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>📝 Task App</h1>
+
+  <div class="form">
+    <input id="title" placeholder="Task title" />
+    <textarea id="description" placeholder="Description"></textarea>
+
+    <input id="date" type="date" />
+
+    <label class="checkbox">
+      <input id="allDay" type="checkbox" checked />
+      All Day
+    </label>
+
+    <div id="timeInputs" class="hidden">
+      <input id="startTime" type="time" />
+      <input id="endTime" type="time" />
+    </div>
+
+    <div class="colors">
+      <span>Select color</span>
+      <div class="color-palette">
+        <div class="color" data-color="#4f46e5"></div>
+        <div class="color" data-color="#16a34a"></div>
+        <div class="color" data-color="#dc2626"></div>
+        <div class="color" data-color="#ca8a04"></div>
+        <div class="color" data-color="#0ea5e9"></div>
+      </div>
+    </div>
+
+    <button id="addBtn">Add Task</button>
+  </div>
+
+  <h3>Your Tasks</h3>
+  <div id="tasks"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

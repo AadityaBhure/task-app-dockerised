@@ -1,0 +1,9 @@
+# Dependencies
+node_modules/
+
+# Secrets
+backend/serviceAccountKey.json
+.env
+
+# Logs
+npm-debug.log
