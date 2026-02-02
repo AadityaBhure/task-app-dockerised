@@ -80,31 +80,6 @@ This project demonstrates real-world practices such as clean separation of conce
 
 ---
 
-## Project Structure
-
-task-app/
-├── frontend/
-│ ├── Dockerfile
-│ ├── index.html
-│ ├── style.css
-│ └── script.js
-│
-├── backend/
-│ ├── Dockerfile
-│ ├── .dockerignore
-│ ├── package.json
-│ ├── src/
-│ │ ├── index.js
-│ │ └── firebase.js
-│ └── serviceAccountKey.json (local only, gitignored)
-│
-├── docker-compose.yml
-├── .gitignore
-└── README.md
-
-
----
-
 ## Security & Environment
 
 - Firebase service account credentials are NOT committed to GitHub
@@ -227,5 +202,6 @@ GitHub: https://github.com/AadityaBhure
 
 This project was built to practice real-world full-stack development patterns without heavy frameworks.  
 Everything runs locally with a single Docker command and follows best practices for security and maintainability.
+
 
 
