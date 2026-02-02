@@ -85,14 +85,6 @@ This project demonstrates real-world practices such as clean separation of conce
 - Firebase service account credentials are NOT committed to GitHub
 - The key file exists only locally at:
 
-
----
-
-## Security & Environment
-
-- Firebase service account credentials are NOT committed to GitHub
-- The key file exists only locally at:
-
 backend/serviceAccountKey.json
 
 
@@ -202,6 +194,7 @@ GitHub: https://github.com/AadityaBhure
 
 This project was built to practice real-world full-stack development patterns without heavy frameworks.  
 Everything runs locally with a single Docker command and follows best practices for security and maintainability.
+
 
 
 
